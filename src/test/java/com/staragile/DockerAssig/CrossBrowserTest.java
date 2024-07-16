@@ -14,7 +14,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class CrossBrowserTest 
 {
   WebDriver driver;
-  @Parameters({"bname"})
+  @Parameters({"browser"})
   @Test
   public void browserTest(String bname) throws MalformedURLException, InterruptedException 
   {
